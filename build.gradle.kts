@@ -1,13 +1,11 @@
 plugins {
 
     // https://kotlinlang.org/docs/releases.html#release-details
-    val kotlinVersion = "1.8.20-Beta"
+    val kotlinVersion = "1.9.0-dev-1777"
     // https://github.com/diffplug/spotless/tags
     val spotlessVersion = "6.11.0"
     // https://github.com/Kotlin/dokka/tags
     val dokkaVersions = "1.7.20"
-    // https://kotlinlang.org/docs/multiplatform.html
-    val multiplatformVersion = "1.8.20-Beta"
     // https://github.com/mpetuska/npm-publish
     val npmPublishVersion = "3.0.3"
     // https://developer.android.com/studio/releases/gradle-plugin#updating-plugin
@@ -22,7 +20,7 @@ plugins {
     kotlin("android").version(kotlinVersion).apply(false)
 
     // common
-    kotlin("multiplatform").version(multiplatformVersion).apply(false)
+    kotlin("multiplatform").version(kotlinVersion).apply(false)
     kotlin("plugin.serialization").version(kotlinVersion).apply(false)
     id("dev.petuska.npm.publish").version(npmPublishVersion).apply(false)
 

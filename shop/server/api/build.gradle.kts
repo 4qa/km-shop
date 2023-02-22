@@ -1,3 +1,7 @@
+import org.jetbrains.kotlin.config.LanguageVersion
+import org.jetbrains.kotlin.gradle.dsl.KotlinVersion
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
     application
     kotlin("jvm")
@@ -10,6 +14,10 @@ version = "0.9.0"
 
 application {
     mainClass.set("com.keygenqt.shop.api.ApplicationKt")
+}
+
+tasks.withType<KotlinCompile> {
+    compilerOptions.languageVersion.set(KotlinVersion.KOTLIN_2_0)
 }
 
 dependencies {

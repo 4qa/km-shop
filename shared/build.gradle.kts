@@ -43,6 +43,7 @@ kotlin {
         all {
             languageSettings.apply {
                 optIn("kotlin.js.ExperimentalJsExport")
+                languageVersion = "2.0"
             }
         }
 
@@ -53,6 +54,7 @@ kotlin {
         val commonMain by getting {
             dependencies {
                 implementation(kmModule.bundles.common)
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.0-RC")
             }
         }
         val androidMain by getting {
