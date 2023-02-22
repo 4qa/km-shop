@@ -17,7 +17,8 @@ struct ConstantsKMM {
     static let REQUEST: ServiceRequest = ServiceRequest(
         apiUrl: getUrl(),
         logger: nil,
-        debug: false
+        debug: false,
+        cookie: nil
     )
     
     // Get path API

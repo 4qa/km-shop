@@ -21,8 +21,8 @@ internal enum L10nApp {
   internal static let commonBtnError = L10nApp.tr("App", "common_btn_error", fallback: "Перезагрузить")
   /// Повторить
   internal static let commonBtnRetry = L10nApp.tr("App", "common_btn_retry", fallback: "Повторить")
-  /// Продукт добвлен в корзину
-  internal static let commonCartAdd = L10nApp.tr("App", "common_cart_add", fallback: "Продукт добвлен в корзину")
+  /// Продукт добавлен в корзину
+  internal static let commonCartAdd = L10nApp.tr("App", "common_cart_add", fallback: "Продукт добавлен в корзину")
   /// Продукт удален из корзины
   internal static let commonCartRemove = L10nApp.tr("App", "common_cart_remove", fallback: "Продукт удален из корзины")
   /// Произошла непредвиденная ошибка, попробуйте позже

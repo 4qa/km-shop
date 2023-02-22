@@ -33,8 +33,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "Shop"
 
-include("shop:mobile:android")
-include("shop:server:cli")
+//include("shop:mobile:android")
+//include("shop:server:cli")
 include("shop:server:api")
-include("shop:pc:client")
+//include("shop:pc:client")
 include(":shared")
