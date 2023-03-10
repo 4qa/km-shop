@@ -1506,8 +1506,10 @@
 			baseConfigurationReference = 31CCEE91EF5BEB15A6E4655F /* Pods-Shop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = Resources/Colors/Colors.xcassets;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Shop/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Май шоп";
@@ -1520,6 +1522,7 @@
 				MARKETING_VERSION = 0.9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.keygenqt.shop.ios;
 				PRODUCT_NAME = "Майшоп";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1530,8 +1533,10 @@
 			baseConfigurationReference = 5AC7BBB030BBC90E90B32680 /* Pods-Shop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = Resources/Colors/Colors.xcassets;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Shop/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Май шоп";
@@ -1544,6 +1549,7 @@
 				MARKETING_VERSION = 0.9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.keygenqt.shop.ios;
 				PRODUCT_NAME = "Майшоп";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
