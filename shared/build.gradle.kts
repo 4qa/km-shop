@@ -84,12 +84,6 @@ kotlin {
     }
 }
 
-tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask::class.java).configureEach {
-    compilerOptions {
-        languageVersion.set(org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_0)
-    }
-}
-
 android {
     namespace = "com.keygenqt.shop"
     compileSdk = findProperty("compileSdk").toString().toInt()

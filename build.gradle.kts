@@ -1,7 +1,7 @@
 plugins {
 
     // https://kotlinlang.org/docs/releases.html#release-details
-    val kotlinVersion = "1.9.0-dev-3244"
+    val kotlinVersion = "1.9.0-dev-3572"
     // https://github.com/diffplug/spotless/tags
     val spotlessVersion = "6.11.0"
     // https://github.com/Kotlin/dokka/tags
