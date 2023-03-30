@@ -1,3 +1,4 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import java.util.*
 
 plugins {
@@ -100,5 +101,11 @@ npmPublish {
                 version.set("0.0." + Date().time)
             }
         }
+    }
+}
+
+tasks.withType<KotlinCompile>().configureEach {
+    compilerOptions{
+        moduleName.set("shared")
     }
 }
